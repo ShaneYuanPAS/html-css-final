@@ -1,0 +1,238 @@
+* {
+    margin: 0%;
+}
+
+body{
+    display: flex;
+}
+
+.L {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.right-bar {
+    height: 100vh;
+    width: 25%;
+    background-color: aquamarine;
+    float: right;
+    z-index: -2;
+}
+.title {
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+.S {
+    width: 50px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 18vh;
+}
+.stuzzle {
+    font-size: 23px;
+    margin-bottom: 18vh;
+}
+.announcements {
+    text-align: center;
+}
+.ann {
+    height: 45px;
+}
+.annon {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.event {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bat {
+    width: 100px;
+}
+.trick {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.cir1 {
+    height: 25px;
+    width: 25px;
+    background-color: orange;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .cir2 {
+    height: 25px;
+    width: 25px;
+    background-color: aquamarine;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  /* bottom icon */
+  .icon {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+  }
+  .assign {
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    font-size: 25px;
+  }
+  .weekly {
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin-left: 5vh;
+    font-size: 25px;
+  }
+.week {
+    width: 55px;
+}
+.grades {
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin-left: 5vh;
+    font-size: 25px;
+  }
+.grade {
+    width: 55px;
+}
+.icon2 {
+    display: flex;
+    justify-content: center;
+}
+.classes {
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin-left: 5vh;
+    font-size: 25px;
+  }
+.class {
+    width: 55px;
+}
+.calendar {
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin-left: 5vh;
+    font-size: 25px;
+  }
+.school {
+    width: 55px;
+}
+.notes-left {
+    align-items: center;
+    display: flex;
+    padding: 15px;
+ */
+    margin-top: px;
+    font-size: 25px;
+  }
+.note {
+    width: 55px;
+}
+
+/* right side */
+
+.bay {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 250px;
+    width: 90px;
+    margin-top: 3vh;
+}
+.hap {
+    font-size: 25px;
+    margin: 55px;
+    margin-top: 20px;
+}
+.event-right {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+ul.a {
+    list-style-type: circle;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 30px;
+  }
+.a {
+    margin-top: -60px;
+}
+.mon {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.month-color {
+    height: 20px;
+    width: 75px;
+    background-color: orange;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 70px;
+    z-index: -1;
+}
+.oct {
+    font-size: 19px;
+}
+.box {
+    background-color: white;
+    border: 3px solid black;
+    width: 260px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+}
+.cal-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 15px;
+    width: 260px;
+    margin: auto;
+}
+.notebox {
+    background-color: white;
+    border: 3px solid black;
+    width: 260px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+}
+.note-right{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.type {
+    font-size: 22px;
+    padding: 20px;
+}
+
+.note-color {
+    height: 20px;
+    width: 70px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+    z-index: -1;
+}
